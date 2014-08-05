@@ -1,7 +1,7 @@
 {
-  "name": "mybower",
+  "name": "acs-common-web",
   "version": "0.1.0",
-  "description": "my sample bower component",
+  "description": "Common web components for ACS.",
   "authors": [
     "nixil"
   ],
@@ -14,7 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~1.11.0",
+    /*"jquery": "~1.11.0",
     "knockout": "https://github.com/knockout/knockout.git#3.2.0-beta",
     "knockout-validation": "https://github.com/Knockout-Contrib/Knockout-Validation.git",
     "koGrid": "https://github.com/Knockout-Contrib/KoGrid.git",
@@ -26,7 +26,7 @@
     "sammy": "https://github.com/quirkey/sammy.git",
     "retina.js": "~1.3.0",
     "moment": "~2.8.0",
-    "moment-timezone": "~0.2.0"
+    "moment-timezone": "~0.2.0"*/
   },
   "appPath": "app"
 }
