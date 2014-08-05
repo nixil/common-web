@@ -9,7 +9,7 @@ requirejs.config({
     urlArgs: "v3.8",
     // Path mappings for the logical module names
     paths: {
-        'knockout': 'lib/knockout/knockout-3.1.0',
+        'knockout': 'lib/knockout/knockout',
         'knockout.global': 'lib/knockout/knockout.global',
         'knockout-validation': 'lib/knockout/knockout.validation',
         'bootstrap-file-upload': 'lib/bootstrap/bootstrap.file-input',
