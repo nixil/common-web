@@ -1,0 +1,20 @@
+<table class="table table-responsive table-bordered">
+    <thead>
+    <tr data-bind="foreach: tb_header">
+        <th>
+            <bs-table-header-cell params="label:$data"></bs-table-header-cell>
+        </th>
+    </tr>
+    </thead>
+
+    <tbody data-bind="foreach: tb_data">
+    <tr data-bind="foreach: $data">
+        <td data-bind="text:$data"></td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3">Footer</td>
+    </tr>
+    </tfoot>
+</table>
