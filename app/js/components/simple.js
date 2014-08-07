@@ -5,10 +5,7 @@
  * Created by matrix on 14-8-5. This is a test file.
  * todo delete me
  */
-
-var component_path = component_path || '.';
-
-define(['knockout', 'text!' + component_path + '/simple.tmpl.html'], function (ko, tmpl) {
+define(['knockout', 'text!./simple.tmpl.html'], function (ko, tmpl) {
 
     ko.components.register(
         "simple-name",
