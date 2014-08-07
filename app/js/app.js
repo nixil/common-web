@@ -128,6 +128,12 @@ define(['jquery', 'knockout', 'acs-nav', 'modules/common/user',
                             menuText: 'Style Guide',
                             icon:'fa fa-site',
                             submenus:[]
+                        },
+                        {
+                            url: '#/developer/simple_component',
+                            menuText: 'Simple Component',
+                            icon:'fa fa-site',
+                            submenus:[]
                         }
                     ],
                     icon:'fa fa-site'

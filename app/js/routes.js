@@ -168,6 +168,17 @@ define(['jquery', 'knockout', 'app', 'sammy', 'modules/common/user'],
                         });
                     });
                 });
+
+                this.get("#/developer/simple_component", function() {
+                    var module = 'modules/developer/simple_component';
+                    require([module], function(simple_component){
+                        app.template({
+                            pageTemplate:'developer/simple_component',
+                            templateData:simple_component,
+                            doPostRenderLogic:function(){}
+                        });
+                    });
+                });
     
                 /* login action */
                 this.get('#/login', function() {
@@ -222,7 +233,7 @@ define(['jquery', 'knockout', 'app', 'sammy', 'modules/common/user'],
                 if (loc) {
                     self.routes.run(loc);
                 } else {
-                    self.routes.run('#/lifecycle/commonDashboard');
+                    self.routes.run('#/developer/style_guide');
                 }
             };
 
