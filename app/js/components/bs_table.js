@@ -1,7 +1,7 @@
 /**
  * Created by xin.h.li@oracle.com on 8/7/14.
  */
-define(['knockout','text!./bs_table.tmpl.html','./bs_table_header_cell'], function(ko, tmpl){
+define(['knockout','text!./acs_templates/bs_table.tmpl.html','./bs_table_header_cell'], function(ko, tmpl){
     ko.components.register(
         "bs-table",
         {
