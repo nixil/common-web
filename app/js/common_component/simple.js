@@ -5,7 +5,7 @@
  * Created by matrix on 14-8-5. This is a test file.
  * todo delete me
  */
-define(['knockout', 'text!./acs_templates/simple.tmpl.html'], function (ko, tmpl) {
+define(['knockout', 'text!./common_component_template/simple.tmpl.html'], function (ko, tmpl) {
 
     ko.components.register(
         "simple-name",

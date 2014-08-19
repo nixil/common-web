@@ -105,7 +105,7 @@ requirejs.config({
             'modules/common/httputils',
             'retina',
             'kogrid',
-            'components/components'],
+            'common_component/all'],
 
 
         // this callback gets executed when all required modules are loaded
