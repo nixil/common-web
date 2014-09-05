@@ -5,7 +5,13 @@ define(['knockout','text!./common_component_template/app_header.tmpl.html'], fun
     ko.components.register(
         "app-header",
         {
-            viewModel: function () {},
+            viewModel: function () {
+                var self = this;
+                self.isLocalUser = ko.observable(true);
+                self.logout = function() {
+                    console.log("Logout clicked");
+                }
+            },
             template: tmpl
         }
     );
